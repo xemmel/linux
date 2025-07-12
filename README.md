@@ -33,8 +33,6 @@ multipass exec server1 -- bash -c "sudo apt install nginx -y"
 
 ```bash
 
-multipass exec server1 -- bash -c "curl localhost"
-
 multipass exec server2 -- bash -c "curl server1"
 
 ```
